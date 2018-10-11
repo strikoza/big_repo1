@@ -7,8 +7,8 @@ Parameters:
   InstanceType:
     Description: WebServer EC2 instance type
     Type: String
-    #Default: t2.micro
-    Default: m5d.24xlarge
+    Default: t2.micro
+    #Default: m5d.24xlarge
     ConstraintDescription: must be a valid EC2 instance type.
   SSHLocation:
     Description: The IP address range that can be used to SSH to the EC2 instances
